@@ -4,7 +4,7 @@ import { Button } from 'antd';
 
 function Zadaci() {
 return (
-<>
+<div className="pb-20">
     <div className='flex justify-center'>
         <p className='font-bold text-3xl mt-20'>Zadaci</p>
     </div>
@@ -51,7 +51,25 @@ return (
     <div className='w-1/2 mx-auto mt-6'>
         <Link to="/pracenje-promena-u-unusu"><Button type="primary" block>Pracenje Promena U Unusu</Button></Link>
     </div>
-</>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/sinhronizacija"><Button type="primary" block>Pracenje Promena U Unusu</Button></Link>
+    </div>
+
+    <p className='text-center mt-20 text-xl font-medium'>USEREDUCER</p>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/use-reducer-brojac"><Button type="primary" block>Brojac</Button></Link>
+    </div>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/visestruki-tajmer"><Button type="primary" block>Visestruki Tajmer</Button></Link>
+    </div>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/slozena-forma"><Button type="primary" block>Slozena Forma Za Registraciju</Button></Link>
+    </div>
+</div>
 );
 }
 

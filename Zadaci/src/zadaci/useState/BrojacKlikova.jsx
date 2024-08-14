@@ -17,9 +17,9 @@ return (
     </p>
 
     <div className='text-xl mt-10 border-2 border-gray-300 py-10'>
-        <p>You clicked {count} times</p>
+        <p>Kliknuo si {count} puta</p>
         <button className='text-white bg-black px-6 py-2' onClick={()=> setCount(count + 1)}>
-            Click me
+            Klikni
         </button>
     </div>
 </div>

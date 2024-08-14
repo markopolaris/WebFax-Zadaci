@@ -11,11 +11,18 @@ import DinamickiUnosTeksta from './zadaci/useState/DinamickiUnosTeksta';
 import TaskLista from './zadaci/useState/TaskLista';
 import JednostavniKalkulator from './zadaci/useState/JednostavniKalkulator';
 import Glasanje from './zadaci/useState/Glasanje';
-import Budget from './mini projekti/useState/Budzet Aplikacija/Budget';
+import Budget from './mini projekti/Budzet Aplikacija/Budget';
 import ResetovanjeBrojaca from './zadaci/useEffect/ResetovanjeBrojaca';
 import TrenutnoVreme from './zadaci/useEffect/TrenutnoVreme'
 import UcitavanjePodatakaKasnjenje from './zadaci/useEffect/UcitavanjePodatakaKasnjenje'
 import PracenjePromeneUUnusu from './zadaci/useEffect/PracenjePromeneUnosu';
+import Sinhronizacija from './zadaci/useEffect/SinhronizacijaSaSpoljnimApiem';
+import ProductList from './mini projekti/Proizvodi/ProductList';
+import UserList from './mini projekti/Korisnici/USerList';
+import UseReducerBrojac from './zadaci/useReducer/UseReducerBrojac';
+import VisestrukiTajmer from './zadaci/useReducer/VisestrukiTajmer';
+import SlozenaForma from './zadaci/useReducer/SlozenaForma';
+import WeatherApp from './mini projekti/Vremenska Prognoza/WeatherApp';
 
 function App() {
 return (
@@ -46,7 +53,15 @@ return (
       <Route path="/trenutno-vreme" element={<TrenutnoVreme />} />
       <Route path="/ucitavanje-podataka-kasnjenje" element={<UcitavanjePodatakaKasnjenje />} />
       <Route path="/pracenje-promena-u-unusu" element={<PracenjePromeneUUnusu />} />
+      <Route path="/sinhronizacija" element={<Sinhronizacija />} />
+      <Route path="/produkti" element={<ProductList />} />
 
+      <Route path="/korisnicka-lista" element={<UserList />} />
+
+      <Route path="/use-reducer-brojac" element={<UseReducerBrojac />} />
+      <Route path="/visestruki-tajmer" element={<VisestrukiTajmer />} />
+      <Route path="/slozena-forma" element={<SlozenaForma />} />
+      <Route path="/weather-app" element={<WeatherApp />} />
     </Routes>
   </div>
 </Router>
