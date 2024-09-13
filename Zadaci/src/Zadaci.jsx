@@ -69,6 +69,37 @@ return (
     <div className='w-1/2 mx-auto mt-6'>
         <Link to="/slozena-forma"><Button type="primary" block>Slozena Forma Za Registraciju</Button></Link>
     </div>
+
+    <p className='text-center mt-20 text-xl font-medium'>LOCALSTORAGE</p>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/name-saver"><Button type="primary" block>Name Saver</Button></Link>
+    </div>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/todo-local-storage"><Button type="primary" block>To-Do Lista LS</Button></Link>
+    </div>
+
+    <p className='text-center mt-20 text-xl font-medium'>SESSIONSTORAGE</p>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/page-visits"><Button type="primary" block>Brojac Poseta Na Stranici</Button></Link>
+    </div>
+
+    <p className='text-center mt-20 text-xl font-medium'>USECONTEXT</p>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/prevod"><Button type="primary" block>Prevod</Button></Link>
+    </div>
+
+    <p className='text-center mt-20 text-xl font-medium'>REDUX</p>
+
+    <div className='w-1/2 mx-auto mt-6'>
+        <Link to="/upravljanje-profilom"><Button type="primary" block>Upravljanje Profilom</Button></Link>
+    </div>
+
+    <p className='text-center mt-20 text-xl font-medium'>TAILWIND CSS</p>
+
 </div>
 );
 }
